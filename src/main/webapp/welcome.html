@@ -1,0 +1,56 @@
+<html>
+<head>
+    <link href="test.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/test.js"></script>
+</head>
+<body>
+    <div id="fullscreen">
+        
+        <div class="header">
+            <form>
+                <table style="color:white">
+                    <tr>
+                        <td>Userid</td>
+                        <td><input id="uid" name="uid" onblur="checkIfUseridAvailable()" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input id="pwd" name="pwd" type="password"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="login"></td>
+                    </tr>
+                </table>
+            </form>
+            Welcome to eLibrary
+        </div>
+        
+        <div id="body">
+            <div id="filter">
+                <div class="filter-options">
+                    <div class="filter-option"><a href="#">Registration</a></div>
+                    <div class="filter-option"><a href="#">Available eBooks</a></div>
+                    <div class="filter-option"><a href="#">Help</a></div>
+                </div>
+            </div>
+            <div id="ContentDisplay">
+                <div class="image-box">
+                    <img src="books.jpg">
+                </div>
+                <div class="image-box">
+                    <img src="elibrary.jpg">
+                </div>
+                <div class="image-box">
+                    <img src="books.jpg">
+                </div>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <!-- Footer content -->
+        </div>
+    </div>
+</body>
+</html
